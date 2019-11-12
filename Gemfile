@@ -4,10 +4,12 @@ gem "hashie"
 gem "octokit", '~> 2.0'
 gem "awesome_print", git: "git@github.com:awesome-print/awesome_print.git"
 
-
+#pry gem in development group 
+#using hash argument
 gem "pry", :group => "development"
 
-#same thing as 
+
+#using block syntax
 #group :development do
 #gem "pry"
 #end
